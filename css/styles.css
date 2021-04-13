@@ -186,6 +186,7 @@ header {
 .hamburger {
     display: block;
     position: relative;
+    outline: none;
 }
 
 .hamburger,
