@@ -189,6 +189,10 @@ header {
     outline: none;
 }
 
+.hamburger:focus {
+    outline: none;
+}
+
 .hamburger,
 .hamburger::before,
 .hamburger::after {
