@@ -121,7 +121,7 @@ header {
     background: var(--clr-dark);
     color: var(--clr-light);
     top: 0;
-    bottom: 1;
+    bottom: 0;
     left: 1;
     right: 0;
     z-index: 100;
@@ -317,8 +317,8 @@ header {
 }
 
 .about--img {
-    width: 200px;
-    height: 250px;
+    width: 350px;
+    height: 400px;
     transition: all .5s;
     margin-left: auto;
     margin-right: auto;
@@ -424,7 +424,7 @@ header {
 }
 
 .portfolio--description:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     opacity: 1;
 }
 
