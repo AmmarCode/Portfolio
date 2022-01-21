@@ -398,6 +398,9 @@ header {
     transition: 
     transform 750ms cubic-bezier(.5, 0, .5, 1), 
     opacity 250ms linear;
+    min-width: 100%;
+    min-height: 100%;
+   
 }
 
 .portfolio--img:hover,
@@ -424,7 +427,7 @@ header {
 }
 
 .portfolio--description:hover {
-    transform: scale(1.01);
+    transform: scale(1.03);
     opacity: 1;
 }
 
