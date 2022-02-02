@@ -3,6 +3,8 @@
 *::before,
 *::after { 
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -384,8 +386,9 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    margin: 1em;
+    margin: .5em;
     padding: 0;
+    place-items: center;
 }
 
 .portfolio--item {
@@ -398,8 +401,8 @@ header {
     transition: 
     transform 750ms cubic-bezier(.5, 0, .5, 1), 
     opacity 250ms linear;
-    width: 100%;
-    height: 100%;
+    width: 25em;
+    height: 17em;
 }
 
 .portfolio--img:hover,
