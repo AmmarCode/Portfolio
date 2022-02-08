@@ -278,8 +278,35 @@ header {
     padding: .5em;
 }
 
+.social-list--link---intro[data-descr]::after {
+    content: attr(data-descr);
+    position: absolute;
+    left: 0;
+    top: 34px;
+    min-width: 250px;
+    border: 1px #aaaaaa solid;
+    border-radius: 3px;
+    background-color: var(--clr-dark);
+    padding: 12px;
+    color: var(--clr-light);
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1;
+    transition-timing-function: ease-in-out;
+    transition-duration: 250ms;
+    visibility: hidden;
+}
+
+.social-list--link---intro[data-descr]:hover::after {
+    visibility: visible;
+    transition-timing-function: ease-in;
+    transition-duration: 250ms;
+    transition-delay: 200ms;
+
+}
+
 .social-list--link---intro:hover {
-    opacity: .5;
+    opacity: .8;
 }
 
 #icon {
@@ -366,10 +393,10 @@ header {
     opacity 250ms linear;
 }
 
-.skill--img:hover {
+/* .skill--img:hover {
     transform: scale(1.1);
     opacity: .95;
-}
+} */
 
 /* Projects section */
 
@@ -428,7 +455,8 @@ header {
     opacity: 0;
 }
 
-.portfolio--description:hover {
+.portfolio--description:hover,
+.portfolio--description:focus {
     transform: scale(1.03);
     opacity: 1;
 }
@@ -484,10 +512,6 @@ header {
     text-decoration: none;
 }
 
-.social--link:hover {
-    opacity: .7;
-}
-
 .social-list {
     list-style: none;
     display: flex;
@@ -502,7 +526,13 @@ header {
 
 .social--link {
     padding: .5em;
-    transform: scale(1.5);
+    transform: scale(1.9);
+}
+
+.social--link:hover {
+    opacity: .8;
+    transition: ease;
+    transition-duration: 350ms;
 }
 
 .copyright {
