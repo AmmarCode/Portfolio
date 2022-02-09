@@ -530,7 +530,7 @@ header {
 }
 
 .social--link:hover {
-    opacity: .8;
+    opacity: .9;
     transition: ease;
     transition-duration: 350ms;
 }
