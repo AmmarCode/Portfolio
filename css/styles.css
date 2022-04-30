@@ -276,6 +276,7 @@ header {
 
 .social-list--link---intro {
     padding: .5em;
+    opacity: .7;
 }
 
 .social-list--link---intro[data-descr]::after {
@@ -306,7 +307,7 @@ header {
 }
 
 .social-list--link---intro:hover {
-    opacity: .8;
+    opacity: 1;
 }
 
 #icon {
@@ -339,6 +340,7 @@ header {
 /* About section */
 .flex {
     border-bottom: 3px solid #ccc;
+    width: 70%;
 }
 
 .flex:hover {
@@ -346,15 +348,12 @@ header {
 }
 
 .about--img {
-    width: 250px;
-    height: 300px;
-    transition: all .5s;
-    margin-left: auto;
-    margin-right: auto;
+    width: 200px;
+    height: auto;
 }
 
 .about {
-    max-width: 800px;
+    max-width: 500px;
     text-align: left;
     align-content: center;
 }
@@ -527,10 +526,11 @@ header {
 .social--link {
     padding: .5em;
     transform: scale(1.9);
+    opacity: .7;
 }
 
 .social--link:hover {
-    opacity: .9;
+    opacity: 1;
     transition: ease;
     transition-duration: 350ms;
 }
