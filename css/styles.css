@@ -15,8 +15,8 @@
 :root {
     --ff-primary: 'Russo One',
         sans-serif;
-    --ff-secondary: 'Satisfy',
-        cursive;
+    --ff-secondary: 'Public Sans',
+        sans-serif;
 
     --fw-reg: 300;
     --fw-bold: 900;
